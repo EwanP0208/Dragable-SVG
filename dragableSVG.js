@@ -25,7 +25,6 @@ function makeDraggable(evt) {
     //Not all elements have x and y attributes, if the first transform is not a translation
     //or it doesnt have one then we make one
     function startDrag(evt) {
-        const isConfined = selectedElement.classList.contains('confine');
         //Check if the clicked on element is actually draggable
         if (evt.target.classList.contains('draggable')) {
             selectedElement = evt.target;
