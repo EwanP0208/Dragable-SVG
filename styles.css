@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+svg {
+    height: 900px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.static {
+    cursor: not-allowed;
+}
+
+.draggable {
+    cursor: move;
+}
