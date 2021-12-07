@@ -17,6 +17,11 @@ svg {
     justify-content: center;
 }
 
+/* No events allowed for foreign objects */
+foreignObject * {
+    pointer-events: none;
+}
+
 .static {
     cursor: not-allowed;
 }
